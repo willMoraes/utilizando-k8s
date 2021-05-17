@@ -5,8 +5,6 @@ import (
     "regexp"
 )
 
-// TestHelloName calls greetings.Hello with a name, checking
-// for a valid return value.
 func TestHelloName(t *testing.T) {
     name := "Code.education Rocks!"
     want := regexp.MustCompile(`<b>`+name+`</b>`)

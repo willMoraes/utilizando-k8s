@@ -11,6 +11,7 @@ PR aprovado pelo processo de CI [aqui](https://github.com/willMoraes/utilizando-
 ### Desafio Mysql
 
 Para gerar uma senha para o banco, use o comando abaixo para gerar a senha `a1s2d3f4`
+
 `
 kubectl create secret generic mysql-pass --from-literal=password=a1s2d3f4
 `

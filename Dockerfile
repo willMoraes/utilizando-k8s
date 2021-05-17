@@ -2,7 +2,7 @@ FROM golang:alpine AS builder
 
 WORKDIR /go/src/app
 
-COPY . .
+COPY src/hello/ .
 
 RUN go get -d -v
 

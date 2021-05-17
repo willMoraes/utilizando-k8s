@@ -4,9 +4,11 @@
 
 ### Desafio go
 
-Imagem no Docker Hub [aqui](https://hub.docker.com/r/willmsmoraes/utilizandok8-go) 
+Para acessar o serviço Load Balancer do exercício, [clique aqui](http://35.225.117.175/) 
 
-PR aprovado pelo processo de CI [aqui](https://github.com/willMoraes/utilizando-k8s/pull/5/checks)
+Para acessar a imagem no Docker Hub, [clique aqui](https://hub.docker.com/r/willmsmoraes/utilizandok8-go) 
+
+Para acessar o PR aprovado pelo processo de CI, [clique aqui](https://github.com/willMoraes/utilizando-k8s/pull/5/checks)
 
 ### Desafio Mysql
 

@@ -11,5 +11,5 @@ steps:
 
   - id: run
     name: "gcr.io/cloud-builders/go"
-    args: ["run","hello"]
+    args: ["build","hello"]
     env: ["GOPATH=."]

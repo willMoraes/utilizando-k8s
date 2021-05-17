@@ -5,6 +5,8 @@ import (
     "regexp"
 )
 
+// TestHelloEmpty calls greetings.Hello with an empty string,
+// checking for an error.
 func TestHelloName(t *testing.T) {
     name := "Code.education Rocks!"
     want := regexp.MustCompile(`<b>`+name+`</b>`)
